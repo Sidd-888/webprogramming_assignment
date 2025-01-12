@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    
+</head>
+<body>
+    
+        <h1 style="text-align: center;">REGISTRATION PAGE</h1>
+  
+<fieldset>
+    <style>
+        body {
+          background-color: #f46e42;
+          color: white;
+        }
+        ul {
+          display: inline;
+        }
+        li {
+          display: inline;
+        }
+      </style>
+    <legend>My Details</legend>
+    <form>
+        <table>
+        <tr>
+            <th><label for="fname">FIRST NAME</label></th>
+            <th><input id="fname" type="text" placeholder="enter your first name"></th>
+            <th>(max 30 charecters a-z and A-Z)</th>
+        </tr>
+        <tr>
+            <th><label for="lname">LAST NAME</label></th>
+            <th><input id="lname" type="text" placeholder="enter your last name"></th>
+            <th>(max 30 charecters a-z and A-Z)</th>
+        </tr>
+        <tr>
+            <th><label for="dob">DATE OF BIRTH</label></th>
+            <th><input id="dob" type="date"></th>
+        </tr>
+        <tr>
+            <th><label for="email">EMAIL</label></th>
+            <th><input id="email" type="email" placeholder="enter yor email"></th>
+        </tr>
+        <tr>
+            <th><label for="mnum">MOBILE NUMBER</label></th>
+            <th><input id="mnum" type="tel" placeholder="enter your mobile number" ></th>
+            <th><label>(10 digit number)</label></th>
+        </tr>
+        <tr>
+            <th><label for="gender">GENDER</label></th>
+            <th><label for="male">male</label>
+            <input name="gender" id="male" type="radio">
+            <label for="female">female</label>
+            <input name="gender" id="female" type="radio"></th>
+        </tr>
+        <tr>
+            <th><label for="address">ADDRESS</label></th>
+            <th><textarea name="" id="address"></textarea></th>
+        </tr>
+        <tr>
+            <th><label for="city">CITY</label></th>
+            <th><input id="city" type="text"></th>
+            <th>(max 30 charecters a-z and A-Z)</th>
+        </tr>
+        <tr>
+            <th><label for="pin">PIN CODE</label></th>
+            <th><input id="pin" type="number"></th>
+            <th><p>(6 digit number)</p></th>
+        </tr>
+        <tr>
+            <th><label for="state">STATE</label></th>
+            <th><input id="state" type="text"></th>
+            <th>(max 30 charecters a-z and A-Z)</th>
+        </tr>
+        <tr>
+            <th><label for="country">COUNTRY</label></th>
+            <th><input id="country" type="text" placeholder="INDIA"></th>
+        </tr>
+        <tr>
+            <th><label for="Hobbies">HOBBIES</label></th>
+            <th><label for="Drawing">Drawing</label>
+                <input name="Hobbies" id="Drawing" type="checkbox">
+                <label for="singing">Singing</label>
+                <input name="Hobbies" id="singing" type="checkbox">
+                <label for="sketching">sketching</label>
+                <input name="Hobbies" id="sketching" type="checkbox">
+
+            </th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                <label for="others">others</label>
+                <input name="Hobbies" id="others" type="checkbox">
+                <input id="Hobbies" type="text">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="qualification">QUALIFICATION</label>
+            </th>
+            <th>
+                <table border="0">
+                    <tr>
+                        <th>SI.NO.</th>
+                        <th>Examination</th>
+                        <th>BOARD</th>
+                        <th>percentage</th>
+                        <th>Year of passing</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>class X</th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>class XII</th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Graduation</th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Masters</th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                        <th><input id="qualification" type="text"></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>(10 char max)</th>
+                        <th>(upto 2 decimal)</th>
+                        <th></th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <lable for="caf">COURSES APPLIED FOR</lable>
+            </th>
+            <th>
+                <label for="bca">BCA</label>
+                <input name="caf" id="bca" type="checkbox">
+                <label for="B.com">B.com</label>
+                <input name="caf" id="B.com" type="checkbox">
+                <label for="B.Sc">B.Sc</label>
+                <input name="caf" id="B.Sc" type="checkbox">
+                <label for="B.A">B.A</label>
+                <input name="caf" id="B.A" type="checkbox">
+            </th>
+        </tr>
+    </tr>
+
+    <th></th>
+    <th>
+        <div>
+    <input type="submit" value="submit" />
+  </div><input type="reset" value="Reset" accesskey="S"></th>
+    </tr>
+
+    </table>
+
+    
+    
+    
+</form>
+</fieldset>
+    
+</body>
+</html>
